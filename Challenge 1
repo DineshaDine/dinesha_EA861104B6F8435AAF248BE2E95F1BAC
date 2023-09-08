@@ -1,0 +1,12 @@
+def fact_ rec(n);
+If n==0 or n==1;
+return 1
+else:
+ return n*fact- rec(n-1)
+
+ number=2
+ res=fact_rec( number)
+
+print("The factorial of {} is{}."".(number,rec))
+
+
